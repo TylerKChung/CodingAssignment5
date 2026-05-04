@@ -17,15 +17,13 @@ ul, ol {
     padding-left: 25px;
 }
 
-div {
-    margin-bottom: 10px;
-}
-
 figure {
     text-align: center;
 }
 
 img {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -50,20 +48,72 @@ hr {
     margin: 20px 0;
 }
 
-.wrapper {
-
-  display: flex;
-
+#main-image {
+    border: 3px solid #5a3e2b;
 }
 
-.wrapper div {
+* {
+    box-sizing: border-box;
+}
 
-  flex: 1;
+.container {
+    width: 100%;
+}
 
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.col {
+    float: left;
+    padding: 15px;
+}
+
+.header, .footer {
+    width: 100%;
+    text-align: center;
+    background-color: #8b5e3c;
+    color: white;
+    padding: 20px;
+}
+
+.links {
+    width: 20%;
+    margin-right: 2%;
+}
+
+.main {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.rating {
+    width: 28%;
+}
+
+.row3 .col {
+    width: 33.33%;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.ingredients {
+    width: 20%;
+}
+
+.equipment {
+    width: 10%;
+}
+
+.directions {
+    width: 70%;
 }
 
 /*
-div {
-  border: double cornflowerblue;
+.col {
+  border: 2px solid cornflowerblue;
 }
 */
